@@ -1,0 +1,140 @@
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/*biography*/
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+
+
+/*Timeline ??*/
+
+.collapsible-header {
+  height: 75px !important;
+  border: 0;
+  margin: 0;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 24px;
+  color: white;
+  line-height: 75px;
+}
+.collapsible-body {
+  border-width: 0 !important;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  color: #eee;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 18px;
+  padding-bottom: 25px;
+}
+li {
+  margin: 0 !important;
+  border-width: 0 !important;
+}
+ul {
+  border-width: 0 !important;
+  box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.rey {
+  background-image: url(http://dailytrendsetter.com/wp-content/uploads/2016/04/Batch-1_Article-4_Subheader-section-title-3-Image.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.reyh {
+  background-color: rgba(177, 136, 72, 0.4) !important;
+}
+.finn {
+  background-image: url(http://www.insidesocal.com/lakers/files/2016/02/0202_SPO_LDN-L-LAKERS-TIMBERWOLVES-KB12.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.finnh {
+  background-color: rgba(13, 110, 242, 0.4) !important;
+}
+.han {
+  background-image: url(https://greatwallofchinatown.files.wordpress.com/2015/11/bryantrings.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.hanh {
+  background-color: rgba(39, 51, 114, 0.4) !important;
+}
+.leia {
+  background-image: url(https://i.ytimg.com/vi/YtfZeoFU0J0/maxresdefault.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.leiah {
+  background-color: rgba(21, 162, 48, 0.4) !important;
+}
+.kylo {
+  background-image: url(https://i.ytimg.com/vi/Q36ipc1brLc/maxresdefault.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.kyloh {
+  background-color: rgba(200, 20, 14, 0.4) !important;
+}
+.luke {
+  background-image: url(http://images.performgroup.com/di/library/sporting_news/e2/18/illo-kobe-bryant-getty-ftr-112915_1uv2m305b0llu101h8ggrkpof2.jpg?t=1435797073);
+  background-position: center center;
+  background-size: cover;
+}
+.lukeh {
+  background-color: rgba(65, 32, 6, 0.4) !important;
+}
+.poe {
+  background-image: url(http://media.masslive.com/celtics_impact/photo/kobe-bryant-054f912ed71af509.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.poeh {
+  background-color: rgba(244, 102, 11, 0.4) !important;
+}
+
+a {
+  color: gold;
+}
+a:hover {
+  text-decoration: underline;
+}
